@@ -1,0 +1,900 @@
+.theme-style-1 .i-layout-header-color-primary,
+.theme-style-2 .i-layout-header-color-primary,
+.theme-style-3 .i-layout-header-color-primary,
+.theme-style-4 .i-layout-header-color-primary,
+.theme-style-5 .i-layout-header-color-primary,
+.theme-style-6 .i-layout-header-color-primary,
+.theme-style-1 .i-layout-header-color-dark,
+.theme-style-2 .i-layout-header-color-dark,
+.theme-style-3 .i-layout-header-color-dark,
+.theme-style-4 .i-layout-header-color-dark,
+.theme-style-5 .i-layout-header-color-dark,
+.theme-style-6 .i-layout-header-color-dark,
+.theme-style-1 .i-layout-header-color-light,
+.theme-style-2 .i-layout-header-color-light,
+.theme-style-3 .i-layout-header-color-light,
+.theme-style-4 .i-layout-header-color-light,
+.theme-style-5 .i-layout-header-color-light,
+.theme-style-6 .i-layout-header-color-light {
+  color: #fff;
+}
+.theme-style-1 .i-layout-header .i-layout-header-trigger:hover,
+.theme-style-2 .i-layout-header .i-layout-header-trigger:hover,
+.theme-style-3 .i-layout-header .i-layout-header-trigger:hover,
+.theme-style-4 .i-layout-header .i-layout-header-trigger:hover,
+.theme-style-5 .i-layout-header .i-layout-header-trigger:hover,
+.theme-style-6 .i-layout-header .i-layout-header-trigger:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.theme-style-1 .i-layout-sider-logo,
+.theme-style-2 .i-layout-sider-logo,
+.theme-style-3 .i-layout-sider-logo,
+.theme-style-4 .i-layout-sider-logo,
+.theme-style-5 .i-layout-sider-logo,
+.theme-style-6 .i-layout-sider-logo {
+  border-bottom-color: transparent;
+}
+.theme-style-1 .i-layout-sider .ivu-menu-light,
+.theme-style-2 .i-layout-sider .ivu-menu-light,
+.theme-style-3 .i-layout-sider .ivu-menu-light,
+.theme-style-4 .i-layout-sider .ivu-menu-light,
+.theme-style-5 .i-layout-sider .ivu-menu-light,
+.theme-style-6 .i-layout-sider .ivu-menu-light,
+.theme-style-1 .i-layout-sider .ivu-menu-dark,
+.theme-style-2 .i-layout-sider .ivu-menu-dark,
+.theme-style-3 .i-layout-sider .ivu-menu-dark,
+.theme-style-4 .i-layout-sider .ivu-menu-dark,
+.theme-style-5 .i-layout-sider .ivu-menu-dark,
+.theme-style-6 .i-layout-sider .ivu-menu-dark {
+  background: rgba(0, 0, 0, 0.2);
+}
+.theme-style-1 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-2 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-4 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-5 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-6 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-1 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-2 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-4 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-5 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-6 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-1 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-2 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-4 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-5 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-6 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-1 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-2 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-4 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-5 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-6 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.theme-style-1 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-2 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-3 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-4 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-5 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-6 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-1 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-2 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-3 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-4 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-5 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-6 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-1 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu):hover,
+.theme-style-2 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu):hover,
+.theme-style-3 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu):hover,
+.theme-style-4 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu):hover,
+.theme-style-5 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu):hover,
+.theme-style-6 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu):hover,
+.theme-style-1 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu):hover,
+.theme-style-2 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu):hover,
+.theme-style-3 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu):hover,
+.theme-style-4 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu):hover,
+.theme-style-5 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu):hover,
+.theme-style-6 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu):hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+.theme-style-1 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-2 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-3 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-4 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-5 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-6 .i-layout-sider .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-1 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-2 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-3 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-4 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-5 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.theme-style-6 .i-layout-sider .ivu-menu-submenu-title-active:not(.ivu-menu-submenu) {
+  color: #fff;
+}
+.theme-style-1 .i-layout-sider,
+.theme-style-2 .i-layout-sider,
+.theme-style-3 .i-layout-sider,
+.theme-style-4 .i-layout-sider,
+.theme-style-5 .i-layout-sider,
+.theme-style-6 .i-layout-sider,
+.theme-style-7 .i-layout-sider,
+.theme-style-8 .i-layout-sider,
+.theme-style-1 .i-layout-sider-dark,
+.theme-style-2 .i-layout-sider-dark,
+.theme-style-3 .i-layout-sider-dark,
+.theme-style-4 .i-layout-sider-dark,
+.theme-style-5 .i-layout-sider-dark,
+.theme-style-6 .i-layout-sider-dark,
+.theme-style-7 .i-layout-sider-dark,
+.theme-style-8 .i-layout-sider-dark {
+  /*.ivu-menu-light,.ivu-menu-dark{
+        .ivu-menu-opened,.ivu-menu-child-item-active{
+          &, .ivu-menu-submenu-title{
+            background: transparent;
+          }
+        }
+        .ivu-menu-item:hover,.ivu-menu-submenu-title:hover,.ivu-menu-item-active:not(.ivu-menu-submenu){
+          background:rgba(0, 0, 0, 0.2);
+        }
+      }*/
+}
+.theme-style-1 .i-layout-sider-logo,
+.theme-style-2 .i-layout-sider-logo,
+.theme-style-3 .i-layout-sider-logo,
+.theme-style-4 .i-layout-sider-logo,
+.theme-style-5 .i-layout-sider-logo,
+.theme-style-6 .i-layout-sider-logo,
+.theme-style-7 .i-layout-sider-logo,
+.theme-style-8 .i-layout-sider-logo,
+.theme-style-1 .i-layout-sider-dark-logo,
+.theme-style-2 .i-layout-sider-dark-logo,
+.theme-style-3 .i-layout-sider-dark-logo,
+.theme-style-4 .i-layout-sider-dark-logo,
+.theme-style-5 .i-layout-sider-dark-logo,
+.theme-style-6 .i-layout-sider-dark-logo,
+.theme-style-7 .i-layout-sider-dark-logo,
+.theme-style-8 .i-layout-sider-dark-logo,
+.theme-style-1 .i-layout-sider-logo-dark,
+.theme-style-2 .i-layout-sider-logo-dark,
+.theme-style-3 .i-layout-sider-logo-dark,
+.theme-style-4 .i-layout-sider-logo-dark,
+.theme-style-5 .i-layout-sider-logo-dark,
+.theme-style-6 .i-layout-sider-logo-dark,
+.theme-style-7 .i-layout-sider-logo-dark,
+.theme-style-8 .i-layout-sider-logo-dark,
+.theme-style-1 .i-layout-sider-dark-logo-dark,
+.theme-style-2 .i-layout-sider-dark-logo-dark,
+.theme-style-3 .i-layout-sider-dark-logo-dark,
+.theme-style-4 .i-layout-sider-dark-logo-dark,
+.theme-style-5 .i-layout-sider-dark-logo-dark,
+.theme-style-6 .i-layout-sider-dark-logo-dark,
+.theme-style-7 .i-layout-sider-dark-logo-dark,
+.theme-style-8 .i-layout-sider-dark-logo-dark,
+.theme-style-1 .i-layout-sider-logo-light,
+.theme-style-2 .i-layout-sider-logo-light,
+.theme-style-3 .i-layout-sider-logo-light,
+.theme-style-4 .i-layout-sider-logo-light,
+.theme-style-5 .i-layout-sider-logo-light,
+.theme-style-6 .i-layout-sider-logo-light,
+.theme-style-7 .i-layout-sider-logo-light,
+.theme-style-8 .i-layout-sider-logo-light,
+.theme-style-1 .i-layout-sider-dark-logo-light,
+.theme-style-2 .i-layout-sider-dark-logo-light,
+.theme-style-3 .i-layout-sider-dark-logo-light,
+.theme-style-4 .i-layout-sider-dark-logo-light,
+.theme-style-5 .i-layout-sider-dark-logo-light,
+.theme-style-6 .i-layout-sider-dark-logo-light,
+.theme-style-7 .i-layout-sider-dark-logo-light,
+.theme-style-8 .i-layout-sider-dark-logo-light {
+  background: transparent;
+}
+.theme-style-1 .i-layout-sider .ivu-menu-light,
+.theme-style-2 .i-layout-sider .ivu-menu-light,
+.theme-style-3 .i-layout-sider .ivu-menu-light,
+.theme-style-4 .i-layout-sider .ivu-menu-light,
+.theme-style-5 .i-layout-sider .ivu-menu-light,
+.theme-style-6 .i-layout-sider .ivu-menu-light,
+.theme-style-7 .i-layout-sider .ivu-menu-light,
+.theme-style-8 .i-layout-sider .ivu-menu-light,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-light,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-light,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-light,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-light,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-light,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-light,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-light,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-light,
+.theme-style-1 .i-layout-sider .ivu-menu-dark,
+.theme-style-2 .i-layout-sider .ivu-menu-dark,
+.theme-style-3 .i-layout-sider .ivu-menu-dark,
+.theme-style-4 .i-layout-sider .ivu-menu-dark,
+.theme-style-5 .i-layout-sider .ivu-menu-dark,
+.theme-style-6 .i-layout-sider .ivu-menu-dark,
+.theme-style-7 .i-layout-sider .ivu-menu-dark,
+.theme-style-8 .i-layout-sider .ivu-menu-dark,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-dark,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-dark,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-dark,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-dark,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-dark,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-dark,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-dark,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-dark {
+  background: transparent;
+}
+.theme-style-1 .i-layout-sider .ivu-menu-light .ivu-menu-item,
+.theme-style-2 .i-layout-sider .ivu-menu-light .ivu-menu-item,
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-item,
+.theme-style-4 .i-layout-sider .ivu-menu-light .ivu-menu-item,
+.theme-style-5 .i-layout-sider .ivu-menu-light .ivu-menu-item,
+.theme-style-6 .i-layout-sider .ivu-menu-light .ivu-menu-item,
+.theme-style-7 .i-layout-sider .ivu-menu-light .ivu-menu-item,
+.theme-style-8 .i-layout-sider .ivu-menu-light .ivu-menu-item,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-light .ivu-menu-item,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-light .ivu-menu-item,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-light .ivu-menu-item,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-light .ivu-menu-item,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-light .ivu-menu-item,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-light .ivu-menu-item,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-light .ivu-menu-item,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-light .ivu-menu-item,
+.theme-style-1 .i-layout-sider .ivu-menu-dark .ivu-menu-item,
+.theme-style-2 .i-layout-sider .ivu-menu-dark .ivu-menu-item,
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-item,
+.theme-style-4 .i-layout-sider .ivu-menu-dark .ivu-menu-item,
+.theme-style-5 .i-layout-sider .ivu-menu-dark .ivu-menu-item,
+.theme-style-6 .i-layout-sider .ivu-menu-dark .ivu-menu-item,
+.theme-style-7 .i-layout-sider .ivu-menu-dark .ivu-menu-item,
+.theme-style-8 .i-layout-sider .ivu-menu-dark .ivu-menu-item,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-item,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-item,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-item,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-item,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-item,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-item,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-item,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-item,
+.theme-style-1 .i-layout-sider .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-2 .i-layout-sider .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-4 .i-layout-sider .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-5 .i-layout-sider .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-6 .i-layout-sider .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-7 .i-layout-sider .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-8 .i-layout-sider .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu-title,
+.theme-style-1 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-2 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-4 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-5 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-6 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-7 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-8 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu-title,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu-title {
+  color: rgba(255, 255, 255, 0.7);
+}
+.theme-style-1 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-2 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-4 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-5 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-6 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-7 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-8 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-1 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-2 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-4 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-5 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-6 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-7 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-8 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item:hover,
+.theme-style-1 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-2 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-4 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-5 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-6 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-7 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-8 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-1 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-2 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-4 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-5 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-6 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-7 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-8 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active,
+.theme-style-1 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-2 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-4 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-5 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-6 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-7 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-8 .i-layout-sider .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-light .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-1 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-2 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-4 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-5 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-6 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-7 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-8 .i-layout-sider .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-1 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-2 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-3 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-4 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-5 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-6 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-7 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover,
+.theme-style-8 .i-layout-sider-dark .ivu-menu-dark .ivu-menu-submenu .ivu-menu-item-active:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+  color: #fff !important;
+}
+.theme-style-1 .i-layout {
+  background: url("./images/newYear/header-bg-1.png") repeat-x;
+}
+.theme-style-1 .i-layout:before {
+  content: "";
+  position: absolute;
+  background: url("./images/newYear/header-bg-1.png") repeat-x;
+  width: 100%;
+  height: 5px;
+  z-index: 100;
+}
+.theme-style-1 .i-layout-header {
+  background: #AA0101;
+}
+.theme-style-1 .i-layout-header-color-primary,
+.theme-style-1 .i-layout-header-color-dark,
+.theme-style-1 .i-layout-header-color-light {
+  background: no-repeat #AA0101 !important;
+}
+.theme-style-1 .i-layout-sider {
+  background: url("./images/newYear/sider-bg-1.png") repeat !important;
+}
+.theme-style-1 .i-layout-sider .ivu-menu-light:before,
+.theme-style-1 .i-layout-sider .ivu-menu-dark:before {
+  content: "";
+  width: 134px;
+  height: 177px;
+  position: absolute;
+  background: url("./images/newYear/sider-niu.png") no-repeat;
+  background-size: contain;
+  bottom: 50px;
+  left: 60px;
+  z-index: 2;
+}
+.theme-style-1 .i-layout-sider .i-layout-menu-side-collapse-dark .i-layout-menu-side-collapse-item-selected,
+.theme-style-1 .i-layout-sider .i-layout-menu-side-collapse-dark .i-layout-menu-side-collapse-item-selected:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.theme-style-1 .i-layout-sider .i-layout-menu-side-collapse:before {
+  content: none;
+}
+.theme-style-1 .i-layout-sider-logo {
+  background: #AA0101;
+}
+.theme-style-1 .i-layout-sider-logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.theme-style-1 .i-layout-sider-logo a:after {
+  content: "";
+  position: absolute;
+  background: url(./images/newYear/sz2.png) left bottom;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  width: 67px;
+  height: 50px;
+  right: 0;
+  z-index: 1;
+}
+.theme-style-1 .i-layout-sider-logo a.noOther:after {
+  content: none;
+}
+.theme-style-1 .i-layout-sider:before {
+  content: "";
+  background: url("./images/newYear/sider-bottom.png") bottom left no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.theme-style-1 .i-layout-sider:after {
+  content: "";
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background: url("./images/newYear/sider-bg-2.png") no-repeat transparent;
+  bottom: 150px;
+  left: 0;
+  opacity: 0.2;
+}
+.theme-style-1 .i-layout-sider-dark {
+  /*box-shadow:none;*/
+}
+.theme-style-1 .i-layout-sider-color .ivu-menu {
+  background: rgba(0, 0, 0, 0.2);
+  /*.@{menu-prefix-cls}-item-active:not(.@{menu-prefix-cls}-submenu){
+            background: rgba(0, 0, 0, 0.2);
+            color: @white;
+          }*/
+}
+.theme-style-2 .i-layout {
+  background: #f8edd0;
+}
+.theme-style-2 .i-layout-header {
+  background: url("./images/spring/top.png") no-repeat #39c5af -256px 0 !important;
+}
+.theme-style-2 .i-layout-header-stick {
+  background: url("./images/spring/top.png") no-repeat #39c5af 0 0;
+}
+.theme-style-2 .i-layout-sider {
+  /*background:linear-gradient(#34C1AE, #A8EFAD, #C3F7A5);*/
+  background: linear-gradient(#137e6f, #a1f2a7 85%, #a6d38c) !important;
+}
+.theme-style-2 .i-layout-sider:before,
+.theme-style-2 .i-layout-sider:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.theme-style-2 .i-layout-sider:before {
+  background: url("./images/spring/top.png") no-repeat;
+  height: 220px;
+}
+.theme-style-2 .i-layout-sider:after {
+  background: url('./images/spring/bg2-spring.png') no-repeat left bottom;
+  left: 0;
+  bottom: 0;
+  height: 400px;
+}
+.theme-style-2 .i-layout-sider .ivu-layout-sider-children {
+  background: url("./images/spring/bottom.png") no-repeat bottom left;
+}
+.theme-style-2 .i-layout-sider-color-primary .ivu-menu-light {
+  background: transparent;
+}
+.theme-style-2 .i-layout-sider-color-primary .ivu-menu-light:before {
+  content: "";
+  position: absolute;
+  width: 192px;
+  height: 64px;
+  background: url("./images/spring/bg3-spring.png") no-repeat;
+  bottom: 20px;
+  left: 40px;
+  z-index: 1;
+}
+.theme-style-2 .i-layout-sider .ivu-menu-light,
+.theme-style-2 .i-layout-sider .ivu-menu-dark {
+  background: transparent;
+}
+.theme-style-3 .i-layout-header {
+  background: #0bcde4;
+}
+.theme-style-3 .i-layout-header-color-primary,
+.theme-style-3 .i-layout-header-color-dark,
+.theme-style-3 .i-layout-header-color-light {
+  background: no-repeat #0bcde4 !important;
+  background-size: cover;
+}
+.theme-style-3 .i-layout-sider {
+  background: #41e3f7 !important;
+}
+.theme-style-3 .i-layout-sider:before,
+.theme-style-3 .i-layout-sider:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.theme-style-3 .i-layout-sider:before {
+  background: url("./images/summer/slider-top.png") no-repeat;
+  height: 677px;
+}
+.theme-style-3 .i-layout-sider:after {
+  background: url("./images/summer/slider-bottom.png") no-repeat bottom left;
+  height: 210px;
+  bottom: 0;
+  left: 0;
+}
+.theme-style-3 .i-layout-sider .ivu-layout-sider-children {
+  background: url("./images/summer/car.png") no-repeat bottom left;
+}
+.theme-style-3 .i-layout-sider-color-primary .ivu-menu,
+.theme-style-3 .i-layout-sider-color-primary a.ivu-menu-item {
+  color: #fff;
+}
+.theme-style-3 .i-layout-sider-color-primary .ivu-menu-light,
+.theme-style-3 .i-layout-sider-color-primary .ivu-menu-dark {
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.theme-style-3 .i-layout-sider-color-primary .ivu-menu-light:before,
+.theme-style-3 .i-layout-sider-color-primary .ivu-menu-dark:before {
+  content: "";
+  position: absolute;
+  width: 185px;
+  height: 71px;
+  bottom: 30px;
+  left: 40px;
+  z-index: 1;
+}
+.theme-style-3 .i-layout-sider .ivu-menu-light,
+.theme-style-3 .i-layout-sider .ivu-menu-dark {
+  background: transparent;
+}
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  /*color:rgba(255,255,255,.9);
+          background: rgba(0,0,0, 0.3);*/
+}
+.theme-style-3 .i-layout-sider .ivu-menu-light .ivu-menu-item-active.ivu-menu-opened:not(.ive-menu-submenu) .ivu-menu-submenu-title,
+.theme-style-3 .i-layout-sider .ivu-menu-dark .ivu-menu-item-active.ivu-menu-opened:not(.ive-menu-submenu) .ivu-menu-submenu-title {
+  color: rgba(255, 255, 255, 0.9);
+}
+.theme-style-3 .i-layout-sider .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu,
+.theme-style-3 .i-layout-sider .ivu-menu-dark.ivu-menu-vertical .ivu-menu-opened {
+  /*background: rgba(0,0,0, 0.3);
+          padding:0 10px;*/
+}
+.theme-style-3 .i-layout-sider .ivu-menu-vertical .ivu-menu-item:hover,
+.theme-style-3 .i-layout-sider .ivu-menu-vertical .ivu-menu-submenu-title:hover {
+  color: #ffffff;
+}
+.theme-style-3 .i-layout-sider .ivu-menu-submenu {
+  padding: 0 10px;
+}
+.theme-style-3 .i-layout-sider .ivu-menu-submenu-title,
+.theme-style-3 .i-layout-sider .ivu-menu-submenu .ivu-menu {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.9);
+}
+.theme-style-3 .i-layout-sider .ivu-menu-submenu-title {
+  padding: 14px;
+}
+.theme-style-3 .i-layout-sider ul.i-layout-menu-side > .ivu-menu-submenu:first-child .ivu-menu-submenu-title {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.theme-style-3 .i-layout-sider ul.i-layout-menu-side > .ivu-menu-submenu:last-child .ivu-menu-submenu-title {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.theme-style-3 .i-layout-sider ul.i-layout-menu-side > .ivu-menu-opened:first-child .ivu-menu-submenu-title {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.theme-style-3 .i-layout-sider ul.i-layout-menu-side > .ivu-menu-opened:last-child .ivu-menu-submenu-title {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.theme-style-3 .i-layout-sider ul.i-layout-menu-side > .ivu-menu-opened:last-child .ivu-menu {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.theme-style-4 .i-layout-header {
+  background: url("./images/autumn/top3.png") no-repeat #ffa43f -256px 0 !important;
+}
+.theme-style-4 .i-layout-header-stick {
+  background: url("./images/autumn/top3.png") no-repeat #ffa43f 0 0;
+}
+.theme-style-4 .i-layout-sider {
+  background: #faeecd !important;
+}
+.theme-style-4 .i-layout-sider:before,
+.theme-style-4 .i-layout-sider:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.theme-style-4 .i-layout-sider:before {
+  background: url("./images/autumn/top.png") no-repeat;
+  height: 635px;
+}
+.theme-style-4 .i-layout-sider:after {
+  background: url("./images/autumn/sider-bottom.png") no-repeat bottom left;
+  background-size: cover;
+  height: 210px;
+  bottom: 0;
+  left: 0;
+}
+.theme-style-4 .i-layout-sider .ivu-layout-sider-children {
+  background: url("./images/autumn/bird.png") no-repeat 0 500px;
+}
+.theme-style-4 .i-layout-sider-color-primary .ivu-menu-light {
+  background: #f8edd0;
+}
+.theme-style-4 .i-layout .ivu-menu-light,
+.theme-style-4 .i-layout .ivu-menu-dark {
+  background: transparent;
+}
+.theme-style-5 .i-layout {
+  background: #1b2958;
+}
+.theme-style-5 .i-layout-header {
+  background: url("./images/winter/top.png") no-repeat -256px 0 #1b2958 !important;
+}
+.theme-style-5 .i-layout-header-stick {
+  background: url("./images/winter/top.png") no-repeat 0 0 #1b2958;
+}
+.theme-style-5 .i-layout-sider {
+  background: linear-gradient(#1b2958, #2a3f7e);
+}
+.theme-style-5 .i-layout-sider:before,
+.theme-style-5 .i-layout-sider:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.theme-style-5 .i-layout-sider:before {
+  background: url("./images/winter/left.png") no-repeat;
+  height: 100%;
+}
+.theme-style-5 .i-layout-sider:after {
+  background: url("./images/winter/slider-bottom.png") bottom left no-repeat;
+  height: 310px;
+  bottom: 0;
+  left: 0;
+}
+.theme-style-5 .i-layout-sider-color-primary {
+  /*.ivu-menu,a.ivu-menu-item {
+            color: @menu-dark-subsidiary-color;
+          }
+          .ivu-menu-light.ivu-menu-vertical{
+            .ivu-menu-item,.ivu-menu-submenu{
+              color: @menu-dark-subsidiary-color;
+              &-active, &:hover{
+                color: @white;
+              }
+              .ivu-menu-submenu-title:hover{
+                color: @white;
+              }
+            }
+          }*/
+}
+.theme-style-5 .i-layout-sider-color-primary .ivu-menu-light {
+  background: #1b2a58;
+}
+.theme-style-5 .i-layout-sider-color-primary .bg-img-year {
+  background: url('./images/winter/bg2-winnter.png') left bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  margin: auto;
+  width: 85px;
+  height: 44px;
+  z-index: 1;
+}
+.theme-style-5 .i-layout-sider-color-primary .bg-img-1-year {
+  background: url('./images/winter/bg1-winnter.png') left bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  bottom: 0px;
+  left: 0px;
+  width: 239px;
+  height: 302px;
+}
+.theme-style-5 .i-layout .ivu-menu-light,
+.theme-style-5 .i-layout .ivu-menu-dark {
+  background: transparent;
+}
+.theme-style-6 .i-layout-header-color-primary,
+.theme-style-6 .i-layout-header-color-light,
+.theme-style-6 .i-layout-header-color-dark {
+  background: #1d1e23 !important;
+  color: #f6ca9d;
+}
+.theme-style-6 .i-layout-sider-logo,
+.theme-style-6 .i-layout-sider .ivu-menu-light,
+.theme-style-6 .i-layout-sider .ivu-menu-dark {
+  background: #1d1e23;
+}
+.theme-style-6 .i-layout-sider .ivu-menu-light,
+.theme-style-6 .i-layout-sider .ivu-menu-dark {
+  background: #1d1e23 !important;
+}
+.theme-style-6 .i-layout-sider-color-primary,
+.theme-style-6 .i-layout-sider-color-dark,
+.theme-style-6 .i-layout-sider-color-light {
+  background: #1d1e23;
+  /*.ivu-menu,a.ivu-menu-item {
+            color: @menu-dark-subsidiary-color;
+          }
+          .ivu-menu-light.ivu-menu-vertical{
+            .ivu-menu-item,.ivu-menu-submenu{
+              color: @menu-dark-subsidiary-color;
+              &-active, &:hover{
+                color: @white;
+              }
+              .ivu-menu-submenu-title:hover{
+                color: @white;
+              }
+            }
+          }*/
+}
+.theme-style-6 .i-layout-sider-color-primary .i-layout-sider-logo,
+.theme-style-6 .i-layout-sider-color-dark .i-layout-sider-logo,
+.theme-style-6 .i-layout-sider-color-light .i-layout-sider-logo,
+.theme-style-6 .i-layout-sider-color-primary .ivu-menu-light,
+.theme-style-6 .i-layout-sider-color-dark .ivu-menu-light,
+.theme-style-6 .i-layout-sider-color-light .ivu-menu-light {
+  background: #1d1e23;
+}
+.theme-style-6 .i-layout-sider-color-primary .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-6 .i-layout-sider-color-dark .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu),
+.theme-style-6 .i-layout-sider-color-light .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+  background: #33343a;
+  color: #ffffff;
+}
+.theme-style-6 .i-layout .ivu-menu-light,
+.theme-style-6 .i-layout .ivu-menu-dark {
+  background: transparent;
+}
+/*// 黑
+.theme-style-7{
+  background-color:#2c2c2e;
+  color:#98989e;
+  .i-layout{
+    &-header{
+      &-color{
+        &-primary,&-dark,&-light{
+          background: #2c2c2e!important;
+          color:#98989e;
+        }
+      }
+      .i-link{
+        color:#98989e;
+      }
+    }
+    &-sider{
+      .ivu-menu-light,.ivu-menu-dark{
+        background: transparent;
+      }
+      &-logo,.ivu-menu-light,.ivu-menu-dark{
+        background: #2c2c2e;
+      }
+      &-color{
+        &-primary{
+          .ivu-menu-light {
+            background: #2c2c2e;
+          }
+          .ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+            background: #2d8cf0;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+  }
+}*/
+.theme-style-7 .ivu-layout {
+  /*background: transparent;*/
+}
+.theme-style-7 .i-layout {
+  background: url("./images/blue/body-bg.png") no-repeat top right;
+  background-size: cover;
+}
+.theme-style-7 .i-layout-header {
+  height: 60px;
+}
+.theme-style-7 .i-layout-header-color-dark,
+.theme-style-7 .i-layout-header-color-primary {
+  color: #515a6e;
+}
+.theme-style-7 .i-layout-tabs,
+.theme-style-7 .i-layout-tabs-main {
+  background: transparent;
+}
+.theme-style-7 .i-layout-header {
+  background: no-repeat #fff;
+}
+.theme-style-7 .i-layout-header-color-primary,
+.theme-style-7 .i-layout-header-color-dark,
+.theme-style-7 .i-layout-header-color-light {
+  background: no-repeat #fff !important;
+}
+.theme-style-7 .i-layout-sider {
+  background: linear-gradient(180deg, #3d62d8, #4191ec);
+}
+.theme-style-7 .i-layout-sider:before {
+  content: "";
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  background: url("./images/blue/waves.png") no-repeat left bottom;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.theme-style-7 .i-layout-sider .i-layout-menu-side-collapse:before {
+  content: none;
+}
+.theme-style-7 .i-layout-sider-logo {
+  border-bottom-color: transparent;
+}
+.theme-style-7 .i-layout-sider-logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #3d62d8;
+}
+.theme-style-7 .i-layout-sider-logo a.noOther:after {
+  content: none;
+}
+.theme-style-7 .i-layout-sider-dark,
+.theme-style-7 .i-layout-sider-light {
+  box-shadow: none;
+}
+.theme-style-7 .i-layout-menu-side {
+  background-color: transparent;
+}
+/*# sourceMappingURL=theme.css.map */

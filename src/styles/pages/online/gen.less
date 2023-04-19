@@ -1,0 +1,60 @@
+.gen {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+    .ivu-card {
+        height: 100%;
+        .ivu-card-body {
+            height: calc(~'100% - 45px');
+            .ivu-row {
+                display: block;
+                height: 100%;
+                .ivu-col {
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .gen-toolbar {
+        padding: 6px;
+        background: #e7e7e7;
+        .tool-fl {
+            width: 300px;
+            .ivu-select {
+                width: auto;
+            }
+        }
+    }
+    .toolbar-select {
+        position: absolute;
+        bottom: 0;
+        z-index: 11;
+        width: 100%;
+        background: transparent;
+        height: 44px;
+        line-height: 44px;
+        background: #fff;
+        border-top: solid 1px #dcdee2;
+        .form {
+            height: 100%;
+        }
+        .ivu-form-item {
+            margin-bottom: 0;
+        }
+        .ivu-form-item:last-child {
+            float: right;
+        }
+    }
+}
+&::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+&::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+&::-webkit-scrollbar-thumb {
+    background: #808695;
+    border-radius: 4px;
+}

@@ -1,0 +1,139 @@
+.i-layout-content-main {
+    height: calc(~'100% - 50px');
+    margin: 44px 12px 0 12px;
+    .list-wrapper {
+        height: 100%;
+        border-radius: 4px;
+        display: block;
+        background: #fff;
+        transition: all 0.2s ease-in-out;
+        padding: 12px 12px 0 12px;
+        .query-box-wrapper {
+            .query-box {
+                margin-bottom: 0;
+                padding-top: 3px;
+            }
+        }
+        & > .ivu-tabs {
+            height: 100%;
+            > .ivu-tabs-bar {
+                margin-bottom: 0;
+                .ivu-tabs-tab-active {
+                    font-size: 16px;
+                }
+            }
+            > .ivu-tabs-content {
+                height: calc(~'100% - 36px');
+                border-bottom-left-radius: 4px;
+                border-bottom-right-radius: 4px;
+                padding: 12px 0 0 0;
+                background-color: #fff;
+                > .ivu-tabs-tabpane {
+                    height: 100%;
+                }
+            }
+        }
+        .list-wrapper {
+            padding: 0;
+            border-radius: 0;
+            background: transparent;
+        }
+        .list-steps {
+            width: 50%;
+            margin: 20px auto;
+        }
+    }
+    .list-wrapper.fullScreen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10000;
+        border-radius: 0;
+    }
+    .list-tab-wrapper {
+        background: transparent;
+        padding: 0;
+    }
+}
+.content-inner {
+    height: 100%;
+    .ivu-card {
+        height: 100%;
+        .ivu-card-body {
+            height: 100%;
+            padding: 12px;
+        }
+    }
+}
+.query-box {
+    padding: 2px 8px 0 8px !important;
+    .query .ivu-form-item {
+        margin-bottom: 3px;
+    }
+}
+
+.setting-card, .columnSetting-card{
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    top: 45px;
+    width: 200px;
+    .ivu-card-body {
+        padding: 0px !important;
+        height: 300px;
+    }
+    .ivu-checkbox-group {
+        display: flex;
+        flex-direction: column;
+        height: ~'calc(100% - 60px)';
+        padding: 8px 0;
+        overflow: auto;
+    }
+    .setting-checkall {
+        padding: 8px 8px 0 8px;
+        position: relative;
+        .allCheckBox {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+        }
+    }
+    .bmsa-toolbar-checkgroupcolumn {
+        .ivu-checkbox-wrapper-checked {
+            margin-right: 0;
+        }
+    }
+    .bmsa-toolbar-checkcolumn {
+        position: relative;
+        margin: 1px 0;
+        padding: 8px;
+        // 未选中
+        .ivu-checkbox {
+            position: absolute;
+            right: 14px;
+            .ivu-checkbox-input {
+                display: none;
+            }
+            .ivu-checkbox-inner {
+                border: none;
+                background-color: transparent;
+            }
+        }
+        // 选中
+
+        .ivu-checkbox-checked {
+            .ivu-checkbox-inner:after {
+                top: 0;
+                width: 8px;
+                height: 16px;
+                border: 2px solid #4594cf;
+                border-top: 0;
+                border-left: 0;
+            }
+        }
+    }
+}

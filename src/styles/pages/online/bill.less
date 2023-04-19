@@ -1,0 +1,74 @@
+.bill{
+    .bill-head{
+        background:#d9ebf7;
+        padding:6px;
+        .head-radio{
+            margin-top: 5px;
+        }
+        .ivu-form-item{
+            margin-bottom:0;
+        }
+    }
+    .ivu-card{
+        height: calc(~"100% - 90px");
+    }
+    .bill-all{
+        margin-top: 10px;
+        background: #fff;
+        padding:0 10px;
+        height: calc(~"100% - 20px");
+        overflow-y:scroll;
+        ul{
+            .bill-li{
+                height: 32px;
+                line-height: 32px;
+                background:#efefef;
+                margin-top:10px;
+                padding:0 10px;
+                width: 200px;
+                position: relative;
+                border-radius: 5px;
+                .bill-li-close{
+                    margin-top:10px;
+                    position: absolute;
+                    right:10px;
+                }
+                .bill-li-name{
+                    padding: 0 20px 0 40px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    word-break: break-all;
+                    white-space: nowrap;
+                    width: 100%;
+                    display: inline-block;
+                    height: 100%;
+                }
+                .bill-li-icon{
+                    position: absolute;
+                    left:30px;
+                    margin-top:10px;
+                }
+                .bill-li-icon-reorder{
+                    position: absolute;
+                    left:10px;
+                    font-size:12px;
+                }
+            }
+        }
+    }
+    .bill-inline{
+        width:100%;
+        overflow-x: auto;
+        .bill-li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+    .bill-hybrid{
+        .bill-li{
+            &:first-child{
+                display: block;
+            }
+        }
+    }
+}

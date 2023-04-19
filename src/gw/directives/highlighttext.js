@@ -1,0 +1,43 @@
+// 调颜色连接: https://highlightjs.org/static/demo/
+// highlight.js  代码高亮指令 tomorrow-night.css agate  googlecode.css atelier-lakeside-light tomorrow  darcula.css arduino-light atelier-cave-dark kimbie.light
+import Hljs from 'highlight.js';
+import 'highlight.js/styles/tomorrow.css'; // 代码高亮风格，选择更多风格需导入 node_modules/hightlight.js/styles/ 目录下其它css文件
+// xcode vs2015 vs solarized-light
+
+let Highlight = {};
+// 自定义插件
+Highlight.install = function (Vue) {
+    // 自定义指令 v-highlight
+    Vue.directive('highlightB', {
+        deep: true,
+        // 被绑定元素插入父节点时调用
+        // inserted: function (el) {
+        //     let blocks = el.querySelectorAll('pre code');
+        //     for (let i = 0; i < blocks.length; i++) {
+        //         console.log('代码高亮');
+        //         Hljs.highlightBlock(blocks[i]);
+        //     }
+        // },
+        
+         // update:function(el){
+        //     console.log(3333333);
+        //     let blocks = el.querySelectorAll('pre code');
+        //     for (let i = 0; i < blocks.length; i++) {
+        //         Hljs.highlightBlock(blocks[i]);
+        //     }
+        // }
+
+        // 指令所在组件的 VNode 及其子 VNode 全部更新后调用
+        componentUpdated: function (el) {
+            let blocks = el.querySelectorAll('pre code');
+            for (let i = 0; i < blocks.length; i++) {
+                // console.log('代码高亮');
+                Hljs.highlightBlock(blocks[i]);
+            }
+        },
+
+       
+    });
+};
+
+export default Highlight;
